@@ -4,7 +4,7 @@ import Main from '../Main';
 
 import { Container, Wrapper } from './styles';
 
-const layout: React.FC = () => {
+const Layout: React.FC = () => {
   return (
       <Container>
           <Wrapper>
@@ -16,4 +16,4 @@ const layout: React.FC = () => {
   )
 }
 
-export default layout;
+export default Layout;
