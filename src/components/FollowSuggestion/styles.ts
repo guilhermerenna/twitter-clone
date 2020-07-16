@@ -1,27 +1,37 @@
-import React from 'react';
+import styled from 'styled-components';
 
-import { Container, Avatar, Info, FollowButton } from './styles';
+import Button from '../Button';
 
-interface Props {
-  name: string;
-  nickname: string;
-}
+export const Container = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  > div {
+    display: flex;
+    align-items: center;
+  }
+`;
 
-const FollowSuggestion: React.FC<Props> = ({ name, nickname }) => {
-  return (
-    <Container>
-      <div>
-        <Avatar />
+export const Avatar = styled.div`
+  width: 49px;
+  height: 49px;
+  background: var(--gray);
+  border-radius: 50%;
+  margin-right: 10px;
+`;
 
-        <Info>
-          <strong>{name}</strong>
-          <span>{nickname}</span>
-        </Info>
-      </div>
+export const Info = styled.div`
+  display: flex;
+  flex-direction: column;
+  > strong {
+    font-size: 14px;
+  }
+  > span {
+    font-size: 14px;
+    color: var(--gray);
+  }
+`;
 
-      <FollowButton outlined>Seguir</FollowButton>
-    </Container>
-  );
-};
-
-export default FollowSuggestion;
+export const FollowButton = styled(Button)`
+  padding: 6px 17px;
+`;

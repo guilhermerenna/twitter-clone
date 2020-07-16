@@ -17,28 +17,28 @@ const SideBar: React.FC = () => {
   return (
     <Container>
       <SearchWrapper>
-        <SearchInput placeholder="Buscar no Twitter" />
+        <SearchInput placeholder="Search on Twitter" />
         <SearchIcon />
       </SearchWrapper>
 
       <StickyBox>
         <Body>
           <List
-            title="Talvez você curta"
+            title="Maybe you like it"
             elements={[
               <FollowSuggestion
-                name="Luiz Batanero"
-                nickname="@luizbatanero"
+                name="Lorena Mendes"
+                nickname="@lolamendesak"
               />,
-              <FollowSuggestion name="Luke Morales" nickname="@lukemorales" />,
+              <FollowSuggestion name="Lorena Mendes" nickname="@lolamendesak" />,
               <FollowSuggestion
-                name="Camila Magalhães"
-                nickname="@camilaamgl"
+                name="Victor Negreiros"
+                nickname="@victornegreiros"
               />,
             ]}
           />
           <List
-            title="O que está acontecendo"
+            title="What's going on"
             elements={[
               <News />,
               <News />,
