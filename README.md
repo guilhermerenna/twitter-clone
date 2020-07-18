@@ -1,6 +1,6 @@
 ## DEMO: 
 You can see the app running in the following page:
-https://app.netlify.com/sites/elastic-wescoff-72ff22/overview
+https://elastic-wescoff-72ff22.netlify.app/
 
 ## NOTES:
 Using react-sticky-box library for responsiveness (twitter's scroll)
