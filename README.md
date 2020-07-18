@@ -1,10 +1,12 @@
+## DEMO: 
+You can see the app running in the following page:
+https://app.netlify.com/sites/elastic-wescoff-72ff22/overview
+
 ## NOTES:
 Using react-sticky-box library for responsiveness (twitter's scroll)
 Using bracket-pair colorizer
 Using prettierrc for auto-formatting whenever pressing ctrl-S
 Using styled-components only as DEV dependency
-
-Stopped at 25:13 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
